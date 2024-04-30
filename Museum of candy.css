@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#candy{
+background-color: rgb(255, 219, 225);
+font-family: poppins;
+}
+#brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+#links a{
+    padding-left: 1rem;
+    font-size: 1.52rem;
+    color: white;
+    padding: 0rem 0.7rem 0rem 0rem;
+    margin: 0rem;
+}
+#links a:hover{
+    color: #ea1c2c;
+}
+#half-2, .coln-6{
+   padding: 0rem;
+   margin-right: 0rem;
+}
+.heading{
+    font-weight:bold;
+    font-size:30px;
+}
+#coln-1{  
+    span{
+        color: #ea1c2c;
+    }
+}
+
+@media all and (min-width:500px){
+    .pic-1{
+        width: 550px;
+    }
+
+    .pic-2{
+        width: 500px;
+    }
+}
+
+@media all and (min-width:576px) {
+    .pic-1{
+        width: 620px;
+    }
+
+    .pic-2{
+        width: 590px;
+    }
+    .fa-solid{
+        font-size: 1.5rem;
+    }
+    .lorem{
+        padding:0rem  1rem 1.5rem 1rem;
+    }
+}
+
+@media all and (min-width:768px) {
+    .pic-1{
+       width:800px;
+    }
+    .pic-2{
+        width:400px;
+    }
+   
+    .lorem{
+        font-size: 12px;
+    }
+
+}
+
+@media all and (min-width:992px){
+    .pic-1{
+        width: 600px;
+    }
+
+    .pic-2  {
+        width: 500px;
+    }
+    #coln-1, h1{
+        font-size: 2rem;
+    }
+    .fa-solid{
+        font-size: 2rem;
+    }
+    .lorem{
+        font-size: 14px;
+    }
+
+}
+
+@media all and (min-width:1200px){
+    .pic-1{
+        width: 820px;
+    }
+
+    .pic-2  {
+        width:650px;
+    }
+    #coln-1, h1{
+        font-size: 2rem;
+    }
+    .fa-solid{
+        font-size: 3rem;
+    }
+    .lorem{
+        font-size: 18px;
+    }
+
+}
+
